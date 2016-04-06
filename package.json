@@ -1,0 +1,11 @@
+{
+  "name": "api-events-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda to create DynamoDB table record as an event record",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC"
+}
