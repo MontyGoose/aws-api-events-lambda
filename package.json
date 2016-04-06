@@ -1,11 +1,36 @@
 {
   "name": "api-events-lambda",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "AWS Lambda to create DynamoDB table record as an event record",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm test"
+  "main": "./index.js",
+  "dependencies": {
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "dynamodb-doc": "^1.0.0",
+    "gm": "^1.17.0",
+    "proxy-agent": "^2.0.0",
+    "async": "^0.9.0",
+    "aws-sdk": "latest",
+    "grunt": "0.4.*",
+    "grunt-aws-lambda": "0.12.0",
+    "npm": "^2.8.3"
+  },
+  "scripts": {
+    "test": "grunt lambda_invoke"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MontyGoose/aws-api-events-lambda.git"
+  },
+  "keywords": [
+    "AWS",
+    "lambda",
+    "DynamoDB"
+  ],
+  "author": "Andy Parry",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/MontyGoose/aws-api-events-lambda/issues"
+  },
+  "homepage": "https://github.com/MontyGoose/aws-api-events-lambda"
 }
