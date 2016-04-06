@@ -3,17 +3,16 @@
   "version": "0.0.1",
   "description": "AWS Lambda to create DynamoDB table record as an event record",
   "main": "./index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "dynamodb-doc": "^1.0.0",
-    "gm": "^1.17.0",
-    "proxy-agent": "^2.0.0",
     "async": "^0.9.0",
     "aws-sdk": "latest",
+    "dynamodb-doc": "^1.0.0",
+    "gm": "^1.17.0",
     "grunt": "0.4.*",
-    "grunt-aws-lambda": "0.12.0",
-    "npm": "^2.8.3"
+    "grunt-aws-lambda": "^0.12.0",
+    "npm": "^2.8.3",
+    "proxy-agent": "^2.0.0"
   },
   "scripts": {
     "test": "grunt lambda_invoke"
