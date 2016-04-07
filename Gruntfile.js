@@ -11,7 +11,7 @@ grunt.initConfig({
    },
    lambda_deploy: {
       default: {
-         http_proxy: 'http://proxy.pershing.com:8080',
+         http_proxy: {{pullfromenv}},
          arn: 'arn:aws:lambda:us-east-1:937459784210:function:APIEvents'
       }
    },
