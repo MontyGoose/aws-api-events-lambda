@@ -34,7 +34,7 @@ exports.handler = function(event, context) {
     function saveData(counter) {
       var tableName = "APIEvents";
       var datetime = new Date().getTime().toString();
-      event.id = counter;
+      event.id = Number(counter);
       event.date = datetime;
 
 
